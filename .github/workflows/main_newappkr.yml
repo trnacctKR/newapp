@@ -58,4 +58,4 @@ jobs:
           app-name: 'newappKR'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_10698F01D16E4238A61BFADBB2F76ED3 }}
-          package: build
+          package: .
